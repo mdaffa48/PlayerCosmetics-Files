@@ -22,6 +22,16 @@ time-limit: 300
 # To disable this, put '0'
 camera-elevation-reduce: 0.3
 
+# Enable/disable specific outer layer skin part of the NPC
+skin-parts:
+  cape: false
+  jacket: true
+  left-sleeve: true
+  right-sleeve: true
+  left-pants-leg: true
+  right-pants-leg: true
+  head: true
+
 # The bossbars that will be shown when player is in wardrobe
 # You can create as many bossbars as you want
 bossbars:

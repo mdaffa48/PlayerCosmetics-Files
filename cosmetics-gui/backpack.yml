@@ -1,0 +1,81 @@
+title: "&f솯䍒䍒䍒䍒䍒䍒䍒썀"
+size: 54
+
+items:
+  axolotl:
+    type: COSMETICS
+    cosmetics: axolotl
+    slots: [ 19 ]
+  bag:
+    type: COSMETICS
+    cosmetics: bag
+    slots: [ 20 ]
+  guitar:
+    type: COSMETICS
+    cosmetics: guitar
+    slots: [ 21 ]
+  goldenCape:
+    type: COSMETICS
+    cosmetics: golden_cape
+    slots: [ 22 ]
+  heartCape:
+    type: COSMETICS
+    cosmetics: heart_cape
+    slots: [ 23 ]
+  kingCape:
+    type: COSMETICS
+    cosmetics: king_cape
+    slots: [ 24 ]
+  helmetCategory:
+    type: OPEN_GUI
+    gui: helmet.yml
+    material: PAPER
+    customModelData: 8012
+    name: "&eHelmet Category"
+    glow: false
+    slots: [ 2 ]
+    lore:
+      - "&7Click to go to the helmet category!"
+  backpackCategory:
+    type: OPEN_GUI
+    gui: backpack.yml
+    material: PAPER
+    customModelData: 8012
+    name: "&eBackpack Category"
+    glow: false
+    slots: [ 4 ]
+    lore:
+      - "&7Click to go to the backpack category!"
+  offHandCategory:
+    type: OPEN_GUI
+    gui: offhand.yml
+    material: PAPER
+    customModelData: 8012
+    name: "&eOffhand Category"
+    slots: [ 6 ]
+    lore:
+      - "&7Click to go to the offhand category"
+  unEquipBackpack:
+    type: UNEQUIP_BACKPACK
+    material: PAPER
+    customModelData: 8011
+    name: '&cUnequip'
+    glow: false
+    slots: [ 49 ]
+    lore: [ ]
+  backButton:
+    type: DUMMY
+    material: PAPER
+    customModelData: 8010
+    name: '&cBack'
+    glow: false
+    slots: [ 46 ]
+    lore: [ ]
+  nextButton:
+    type: DUMMY
+    material: PAPER
+    customModelData: 8008
+    name: '&aNext'
+    glow: false
+    slots: [ 52 ]
+    lore: [ ]

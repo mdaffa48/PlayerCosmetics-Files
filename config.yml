@@ -3,7 +3,7 @@ debug: false
 
 # What is the default page that will be open when players
 # using /cosmetics command
-defaultPage: 'backpack1.yml'
+defaultPage: 'helmet.yml'
 
 # Should we let the plugin know that you're preferred to use the
 # old config instead the new config system?
